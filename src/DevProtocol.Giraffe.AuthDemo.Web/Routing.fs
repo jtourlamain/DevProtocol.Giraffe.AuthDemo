@@ -2,10 +2,11 @@
 
 open Giraffe
 open DevProtocol.Giraffe.AuthDemo.Web.HttpHandlers
+open Microsoft.AspNetCore.Authentication.OpenIdConnect
 
 
 let authorize = 
-    requiresAuthentication(challenge "OpenIdConnect")
+    requiresAuthentication(challenge OpenIdConnectDefaults.AuthenticationScheme)
 
 let routes: HttpFunc -> HttpFunc =
     choose [
