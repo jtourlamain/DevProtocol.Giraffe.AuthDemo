@@ -10,7 +10,7 @@ A F# Giraffe web application using Azure AD and openid connect.
 
 ## More info
 
-- https://www.devprotocol.com/integrate-azure-ad-in-your-giraffe-web-app/
+- [https://www.devprotocol.com/2018/08/14/integrate-azure-ad-in-your-giraffe-web-app.html](https://www.devprotocol.com/2018/08/14/integrate-azure-ad-in-your-giraffe-web-app.html)
 
 ## License
 
